@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Greetings Master</title>
+
+</head>
+
+<body>
+     <p id="12"></p>
+      <script>
+       async function add(a,b) {
+        var response=await a+b
+        display(response)
+       }
+       function display(sum) {
+       document.getElementById("12") .innerHTML=sum
+       }
+       add(19,87)
+      </script>
+
+</body>
